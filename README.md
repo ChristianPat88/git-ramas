@@ -71,6 +71,7 @@ git merge feature/ramas # Me traigo a main lo que tenia en feature/ramas
 ```
 
 * Fusion -> Fast-forward -> git hace la fusion automaticamente
+* Fusion -> con estrategia -> git hace la fusion automaticamente
 * Fusion -> con conflicto -> git no puede fusionar automaticamente, entonces nos va a pedir ayuda a nosotros
 
 ## Eliminar una rama
