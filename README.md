@@ -71,4 +71,18 @@ git merge feature/ramas # Me traigo a main lo que tenia en feature/ramas
 ```
 
 * Fusion -> Fast-forward -> git hace la fusion automaticamente
+* Fusion -> con conflicto -> git no puede fusionar automaticamente, entonces nos va a pedir ayuda a nosotros
+
+## Eliminar una rama
+
+```sh
+git branch -d <nombre-rama> # Si la rama que estoy borrando ya fue fusionada me va a borrar la rama
+git branch -D <nombre-rama> # Confirmacion de borrado de una rama que todavia no ha sido fusionada en el repositorio
+```
+
+## Abortar la fusion
+
+```sh
+git merge --abort
+```
 
